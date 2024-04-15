@@ -35,7 +35,7 @@ public class Main {
                     System.out.println("Vida: "+assasino.getVida());
                     System.out.println("Energia: "+assasino.getEnergia());
                     System.out.println("Poder: "+assasino.getPoder());
-                    System.out.println(assasino.toString());
+                    System.out.println("Arma: "+ assasino.getArma().getNome());
                     break;
 
                 case 3:
@@ -43,7 +43,7 @@ public class Main {
                     System.out.println("Vida: "+guerreiro.getVida());
                     System.out.println("Energia: "+guerreiro.getEnergia());
                     System.out.println("Poder: "+guerreiro.getPoder());
-                    System.out.println(guerreiro.toString());
+                    System.out.println("Arma: "+ guerreiro.getArma().getNome());
                     break;
                 case 4:
                     mago.usarHabilidade();

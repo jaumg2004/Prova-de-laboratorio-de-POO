@@ -21,10 +21,4 @@ public class Guerreiro extends Personagem{
         System.out.println("Atacar "+personagem.getNome()+" com "+arma.getNome());
     }
 
-    @Override
-    public String toString() {
-        return "{"+
-                "arma=" + arma +
-                '}';
-    }
 }

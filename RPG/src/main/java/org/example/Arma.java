@@ -26,11 +26,4 @@ public class Arma {
         this.dano = dano;
     }
 
-    @Override
-    public String toString() {
-        return "Arma{" +
-                "nome='" + nome + '\'' +
-                ", dano=" + dano +
-                '}';
-    }
 }
